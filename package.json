@@ -1,0 +1,40 @@
+{
+  "name": "umi-plugin-hui",
+  "version": "1.0.0-alpha.1",
+  "description": "umi micro-app plugin for hui framework",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/plugins"
+  },
+  "author": "https://kawhi.site",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "father-build",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "address": "^1.1.2",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@umijs/test": "^3.0.10",
+    "@umijs/test-utils": "^1.0.0",
+    "father-build": "^1.19.2",
+    "umi": "^3.2.21"
+  },
+  "peerDependencies": {
+    "umi": "^3.2.21",
+    "webpack": "^4.41.0"
+  }
+}
